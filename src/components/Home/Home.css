@@ -1,0 +1,32 @@
+.home{
+    background:url(https://media.stylus.com/global/processedimages/2017/november/ls_2817_blogs/ls_2817_blogs1_--__w_760_.jpg);
+    margin:20px 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+.home h1 {
+    color: red;
+    padding: 200px 0px 20px 0px;
+    font-size: 55px;
+}
+.home p{
+    color: white;
+    padding: 20px 0px 30px 0px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.home Button{
+    color: yellow;
+    background:red;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+.Link{
+    text-decoration: none;
+}
+.home Button:hover{
+    background-color: yellow;
+    color:red; 
+}

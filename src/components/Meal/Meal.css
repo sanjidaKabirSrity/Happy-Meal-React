@@ -1,0 +1,14 @@
+Button{
+    color: yellow;
+    background:red;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+
+.Link{
+    text-decoration: none;
+}
+.Button:hover{
+    background-color: yellow;
+    color:red; 
+}

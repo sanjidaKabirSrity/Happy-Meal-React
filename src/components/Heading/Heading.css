@@ -1,0 +1,39 @@
+.Box{
+    background-color: cornsilk;
+margin:0px 100px;
+}
+.logo{
+    width: 150px;
+    padding: 0px 10px;
+}
+.logo img{
+    width: 80%;
+}
+.search-box{
+    text-align: center;
+    padding: 35px 0px;
+}
+.search{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(248, 113, 113);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 10px;
+    color: red;
+    background-color: white;
+}
+.search::placeholder{
+    color: red;
+}
+nav{
+    padding: 30px;
+    margin-left: 50px;
+}
+.NavLink{
+color: gray;
+font-size: 20px;
+text-decoration: none;
+padding:10px;
+margin: 5px;
+}

@@ -1,5 +1,5 @@
 .home{
-    background:url(https://media.stylus.com/global/processedimages/2017/november/ls_2817_blogs/ls_2817_blogs1_--__w_760_.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.486)), url(https://media.stylus.com/global/processedimages/2017/november/ls_2817_blogs/ls_2817_blogs1_--__w_760_.jpg);
     margin:20px 100px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,7 +7,7 @@
     height: 100vh;
 }
 .home h1 {
-    color: red;
+    color: #ff1a24;
     padding: 200px 0px 20px 0px;
     font-size: 55px;
 }
@@ -19,7 +19,7 @@
 }
 .home Button{
     color: yellow;
-    background:red;
+    background:#ff1a24;
     font-weight: 600;
     margin: 30px 0px;
 }
@@ -28,5 +28,5 @@
 }
 .home Button:hover{
     background-color: yellow;
-    color:red; 
+    color:#ff1a24;
 }

@@ -1,14 +1,20 @@
-Button{
-    color: yellow;
-    background:red;
-    font-weight: 600;
-    margin: 30px 0px;
+.meal-text{
+    text-align: center;
+}
+.button{
+    color: yellow !important;
+    background:#ff1a24 !important;
+    font-weight: 600 !important;
+    display: block !important;
+    margin: 20px 0px !important;
+    width: 100%;
 }
 
 .Link{
     text-decoration: none;
+    text-align: center;
 }
-.Button:hover{
-    background-color: yellow;
-    color:red; 
+.button:hover{
+    background-color: yellow !important;
+    color:#ff1a24 !important; 
 }

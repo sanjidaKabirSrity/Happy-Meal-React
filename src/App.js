@@ -37,7 +37,7 @@ function App() {
           <Route exact path="/mealItem/:mealsId">
               <SingleMeal></SingleMeal>
           </Route>
-          <Route>
+          <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>

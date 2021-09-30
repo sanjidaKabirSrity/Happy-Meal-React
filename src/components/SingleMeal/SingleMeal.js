@@ -13,7 +13,7 @@ const SingleMeal = () => {
     },[])
     const history = useHistory();
     function handleClick() {
-        history.push("/about");
+        history.push("/mealItem");
       }
     return (
         <Box sx={{ flexGrow: 1 }}>
@@ -26,9 +26,9 @@ const SingleMeal = () => {
                         <div className="text">
                             <h1>{ml.strMeal}</h1>
                             <p>{ml.strInstructions}</p>
-                            <Link to='' className="Link">
+                            <div className="Link">
                                <Button variant="contained" className="btn" onClick={handleClick}>Go Back</Button>
-                            </Link>
+                            </div>
                         </div>
                     </div>
                     </Grid>)
